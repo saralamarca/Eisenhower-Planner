@@ -17,8 +17,9 @@ Whether you're overwhelmed by daily tasks or looking to streamline your producti
   - **Delegate:** Tasks that are urgent but not important.
   - **Delete:** Tasks that are not urgent or important.
 - **View Tasks:** View a organized display of all tasks categorized according to the Eisenhower Matrix.
+- **Task Deletion:** Remove tasks from the matrix as your priorities change or after completion.
+- **Save/Load Functionality:** Ability to save your task matrix and load it later.
 
 ## Upcoming Features
 
-- **Task Deletion:** Remove tasks from the matrix as your priorities change or after completion.
-- **Save/Load Functionality:** Ability to save your task matrix and load it later.
+- **Graphical User Interface:** A user-friendly GUI that will make it easier to input data and view the schedule.
