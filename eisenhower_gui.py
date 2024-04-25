@@ -20,7 +20,7 @@ class EisenhowerGUI(App):
 
         # Logo image
         self.logo_image = Image(source="logo.png", allow_stretch=True)
-        self.logo_image.size_hint = (1, 1)  # Adjust size hint as needed for your logo
+        self.logo_image.size_hint = (1, 1)
         self.logo_image.pos_hint = {'center_x': 0.5, 'top': 1.2}
         self.root_layout.add_widget(self.logo_image)
 
@@ -45,7 +45,7 @@ class EisenhowerGUI(App):
                              bold=True,
                              background_color='#156669',
                              background_normal='')
-        # self.button.bind(on_press=self.callback)
+        self.button.bind(on_press=self.callback)
         self.window.add_widget(self.button)
 
         # Add the GridLayout to the FloatLayout
@@ -53,9 +53,9 @@ class EisenhowerGUI(App):
 
         return self.root_layout
     
-    # def callback(self, instance):
-    #     self.greeting.text = "Let's go, " + self.user.text + "!"
-    #     self.user.text = ""
+    def callback(self, instance):
+        self.greeting.text = "Let's go, " + self.user.text + "!"
+        self.user.text = ""
     
 if __name__ == "__main__":
     EisenhowerGUI().run()

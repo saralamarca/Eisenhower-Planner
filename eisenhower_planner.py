@@ -2,6 +2,7 @@ import csv
 import os
 
 
+
 class Task:
     """
     Defines task with labels for urgency and importance.
@@ -153,7 +154,7 @@ class EisenhowerPlanner:
 
     def load_matrix(self, path, filename="eisenhower_matrix.csv"):
         """
-        Loads the Eisenhower Matrix from a CSV file.
+        Loads saved Eisenhower Matrix from CSV file.
 
         Parameters:
             path (str): The directory path where the file is located.

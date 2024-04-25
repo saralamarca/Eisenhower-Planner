@@ -5,7 +5,7 @@ from eisenhower_gui import EisenhowerGUI
 
 if __name__ == "__main__":
     # Initialize and run the GUI
-    EisenhowerGUI().run()
+    # EisenhowerGUI().run()
     # Create an instance of EisenhowerPlanner
     eisenhower_matrix = EisenhowerPlanner()
     print("*** Welcome to the Eisenhower Matrix Planner ***\n")
